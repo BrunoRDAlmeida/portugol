@@ -57,7 +57,6 @@ programa
 				}
 			}
 		}
-		
 		media_idade_grupo = soma_total / pessoas
 		escreva("\nO nome da pessoa mais velha: " + nome_pessoa_velha)
 		escreva("\nO nome da mulher mais jovem: " + nome_mulher_jovem)
@@ -71,7 +70,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 666; 
+ * @POSICAO-CURSOR = 261; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

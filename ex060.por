@@ -18,10 +18,9 @@ programa
 		inteiro nome_pessoa_velha = 0
 		inteiro homens_cadastrados = 0, mulheres_cadastradas = 0
 		inteiro idade_mulher_jovem = 0
-		inteiro mulheres_menores
-		inteiro homens_maiores
+		inteiro mulheres_menores = 0
+		inteiro homens_maiores = 0
 		inteiro idade = 0
-		inteiro soma = 0
 		inteiro soma_total = 0
 		real media_idade_grupo = 0.0
 		logico continuar = verdadeiro
@@ -46,12 +45,12 @@ programa
 			}
 
 				
-			se (sexo == 'h'){
+			se (sexo == 'h' e idade > 30){
 				homens_cadastrados++
-				soma += idade
-			} senao {
+				homens_maiores++
+			} senao se (sexo == 'm' e idade < 18){
 				mulheres_cadastradas++
-
+				mulheres_menores++
 				se ((mulheres_cadastradas == 1) ou (idade < idade_mulher_jovem)){
 					idade_mulher_jovem = idade
 					nome_mulher_jovem = nome
@@ -63,8 +62,8 @@ programa
 		escreva("\nO nome da pessoa mais velha: " + nome_pessoa_velha)
 		escreva("\nO nome da mulher mais jovem: " + nome_mulher_jovem)
 		escreva("\nA media de idade do grupo: " + media_idade_grupo)
-		//escreva("Qauntos homens tem mais de 30 anos: " + homens_maiores)
-		//escreva("Qauntas mulheres tem menos de 18 anos: " + mulheres_menores)
+		escreva("\nQauntos homens tem mais de 30 anos: " + homens_maiores)
+		escreva("\nQauntas mulheres tem menos de 18 anos: " + mulheres_menores)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -72,7 +71,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1263; 
+ * @POSICAO-CURSOR = 666; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

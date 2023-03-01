@@ -2,8 +2,8 @@ programa
 {
 	funcao vazio gerador(cadeia frase, inteiro total){
 		escreva("\n+-------=======-------+")
-		para(total=0; total<4; total++){
-			escreva("\n", frase)
+		para(inteiro contador=0; contador<total; contador++){
+			escreva("\n", frase, total)
 		}
 		escreva("\n+-------=======-------+")
 	}
@@ -12,13 +12,12 @@ programa
 		gerador("Aprendendo Portugol", 4)
 	}
 }
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 125; 
+ * @POSICAO-CURSOR = 289; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

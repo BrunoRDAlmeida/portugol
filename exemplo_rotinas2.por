@@ -1,11 +1,12 @@
 programa
 {
 	
-funcao vazio mensagem(cadeia frase){
+	funcao vazio mensagem(cadeia frase){
 		escreva("\n--------------------")
 		escreva("\n", frase)
 		escreva("\n--------------------\n")
 	}
+	
 	funcao vazio inicio()
 	{
 		mensagem("EXERCICIO")
@@ -24,7 +25,7 @@ funcao vazio mensagem(cadeia frase){
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 383; 
+ * @POSICAO-CURSOR = 152; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

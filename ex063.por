@@ -16,10 +16,14 @@ programa
 			escreva("\nDeseja continuar? [s/n] ")
 			leia(resposta)
 			soma += numero
-			contador ++
+			se (contador==0){
+				menor_valor = numero
+				contador ++
+			}
 			se (numero < menor_valor){
 				menor_valor = numero
-			}se (numero % 2 == 0){
+			}
+			se (numero % 2 == 0){
 				pares++
 			}
 		}enquanto (resposta == 's')
@@ -35,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 351; 
+ * @POSICAO-CURSOR = 437; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

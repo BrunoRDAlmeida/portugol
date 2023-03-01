@@ -27,7 +27,7 @@ programa
  * 
  * @POSICAO-CURSOR = 410; 
  * @PONTOS-DE-PARADA = 6;
- * @SIMBOLOS-INSPECIONADOS = {idade, 6, 10, 5}-{soma_idade, 7, 10, 10}-{contador, 8, 10, 8}-{media_idade, 9, 7, 11};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

@@ -1,3 +1,8 @@
+/*
+90) Desenvolva um algoritmo que leia dois valores pelo teclado e passe esses
+valores para um procedimento Somador() que vai calcular e mostrar a soma entre
+eles.
+*/
 programa
 {
 	funcao vazio somador (inteiro valor_1, inteiro valor_2){
@@ -10,7 +15,8 @@ programa
 		inteiro numero_1, numero_2
 		escreva("Digite o primeiro número: ")
 		leia(numero_1)
-		escreva("Digite o segundo número: ")
+		escreva("Digite 
+o segundo número: ")
 		leia(numero_2)
 		somador(numero_1, numero_2)
 	}

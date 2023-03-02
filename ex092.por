@@ -1,14 +1,20 @@
+/*
+92) Crie uma lógica que leia um número inteiro e passe para um procedimento
+ParOuImpar() que vai verificar e mostrar na tela se o valor passado como
+parâmetro é PAR ou ÍMPAR.
+*/
 programa
 {
-	funcao vazio ParOuImpar (inteiro valor){
+	funcao vazio ParOuImpar (inteiro valor){
 		se (valor%2==0){
 			escreva("Esse número é par")
 		}senao{
 			escreva("Esse número é impar")
 		}
 	}
+
 	funcao inicio()
-	{	
+	{
 		inteiro numero
 		escreva("Digite um número para saber se ele é par ou impar: ")
 		leia(numero)

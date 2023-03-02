@@ -5,6 +5,11 @@ programa
 		escreva("\n", frase)
 		escreva("\n--------------------\n")
 	}
+	funcao vazio dobro (inteiro valor){
+		inteiro res
+		res = valor*2
+		escreva("O dobro de ", valor, " é igual a ", res)
+	}
 	
 	funcao vazio inicio()
 	{
@@ -13,7 +18,7 @@ programa
 		escreva("Digite um numero: ")
 		inteiro n
 		leia(n)
-		escreva("O dobro de ", n, " e igual a ", n*2)
+		dobro(n)
 		mensagem("FIM DO EXERCICIO")
 		mensagem("VOLTE SEMPRE")
 	}
@@ -24,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 10; 
+ * @POSICAO-CURSOR = 199; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

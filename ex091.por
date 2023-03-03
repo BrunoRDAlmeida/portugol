@@ -8,8 +8,6 @@ programa
 {
 	
 	funcao vazio maior (inteiro valor_1, inteiro valor_2){
-		inteiro valor_maior
-		inteiro valor_menor
 		se (valor_1 < valor_2){
 			escreva("O maior número é ", valor_2, " e o menor é ", valor_1)
 		}senao se (valor_1 > valor_2){
@@ -34,7 +32,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 608; 
+ * @POSICAO-CURSOR = 336; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
